@@ -5,7 +5,7 @@ This website allows you to scroll through makeup products with a previous and be
 
 Link to project: coming soon...
 
-[alt](makeupProducts.jpg)
+![alt](makeupProducts.jpg)
 
 
 How It's Made:
