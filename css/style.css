@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+.main{
+  margin: 200px 0 0 12%;
+  float: left;
+}
+.main + section{
+  float: left;
+  width: 40%;
+}
+h1, button, input, p{
+  font-family: sans-serif;
+}
+h1{
+  margin-bottom: 50px;
+  font-size: 2.1em;
+  color: RGB(145,180,181);
+  text-shadow: 1px 1px 3px black;
+}
+input{
+  width: 70%;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(250, 128, 114);
+  background: rgb(230, 230, 250);
+}
+button{
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(250, 128, 114);
+  background: rgb(230, 230, 250);
+}
+p{
+  font-size: 2em;
+  padding-left: 5px;
+  color: rgb(250, 128, 114);
+}
