@@ -1,22 +1,17 @@
-# 📊 Week07 Bootcamp2019a Project: Simple API 2
+# Discography Generator
+This was my first time searching for an API on my own to use without a clear mission on what API to use.
 
-### Goal: Display data returned from an api
+![Site screenshot](screenshot.png)
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, Javascript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Really just used some basic HTML & CSS along with the ES6 I used after fetching the data from NASA.
+
+## Optimizations
+There's plenty that can be done here. Primarily, I want to change hte code so that the list resets when you click the button again. I'd also like to be able to remove single albums on click. Really, the only further optimization code wise would be adding other APIs to have more functionality by doing things like generating track details per album or being able to store information in a separate list or play actual songs from clicked albums.
+
+## Lessons Learned:
+
+I learned it can be frustratingly difficult to just choose an API and find one that works the way you need it to, or that doesn't require a lengthy authentication process, or that is structured in a way that you can currently understand and modify.
