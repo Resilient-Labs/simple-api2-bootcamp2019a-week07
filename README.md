@@ -1,22 +1,13 @@
 # 📊 Week07 Bootcamp2019a Project: Simple API 2
+This api will generate a random activity for the user to do when bored depending on the general type they enter.
 
-### Goal: Display data returned from an api
+![screenshot of project](img/activitygenerator.png)
 
-### How to submit your code for review:
+## How It's Made:
+**Tech Used:** HTML, CSS, JS, boredapi
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+In HTML, I created a form with an input and submit button. When the user inputs an activity type and clicks on the button, a function will run. When it runs, the activity type the user inputs will be passed through the boredapi, and the api will generate a random activity based on that type. I display the random activity into the DOM.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Lessons Learned
+
+Drop down menus are a pain to deal with.
