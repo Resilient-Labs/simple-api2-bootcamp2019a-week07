@@ -1,6 +1,10 @@
 *{
   box-sizing: border-box;
 }
+body{
+  background: url(../img/sayakapunch.gif) no-repeat;
+  background-position: 140% 0;
+}
 .main{
   margin: 200px 0 0 12%;
   float: left;
