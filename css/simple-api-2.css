@@ -1,0 +1,52 @@
+body {
+  background-image: url(../img/bgi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: serif;
+}
+
+img {
+  height: 100px;
+  float: left;
+  margin-top: 65px;
+}
+
+h1 {
+  font-size: 80px;
+  float: left;
+  margin-left: 37%;
+}
+
+form {
+  margin-top: 200px;
+  margin-left: 25%;
+}
+
+.form {
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  float: left;
+  display: inline-block;
+}
+
+.btn {
+  width: 10%;
+  height: 45px;
+  border-radius: 5px;
+  float: left;
+  display: inline-block;
+  margin-left: 1%;
+}
+
+.words {
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+}
+
+p {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
