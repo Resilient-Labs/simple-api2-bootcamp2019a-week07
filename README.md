@@ -1,22 +1,18 @@
 # 📊 Project: Simple API 2
 
-### Goal: Display data returned from an api
+### Goal: Display quote of the day from Quotes on Design's API
 
-### How to submit your code for review:
+**View project in browser:** https://endev-quotesondesign-simple-api
+!!important: must have CORS changer installed in browser to fetch data from API
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![alt tag](screenshot.png)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Design and Development:
+**Tech Used** HTML, CSS, JavaScript, API, JSON: 
+Displaying a quote of the day by using today's current day as inpout value to generate quote from Quotes on Design's API. 
+
+## Reflections:
+Simple and fun to make. I can see the allure of apps that generate one quote per day- easy to build and users don't get overloaded with information
+
+## API Source:
+**Quotes on Design:** https://quotesondesign.com/api-v4-0/
