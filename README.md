@@ -3,9 +3,7 @@
 ### Goal: Display quote of the day from Quotes on Design's API
 
 **View project in browser:** https://endev-quotesondesign-simple-api
-
-##
-!!important: must have CORS changer installed in browser to fetch data from API
+**!!important: must have CORS changer installed in browser to fetch data from API**
 
 ![alt tag](screenshot.png)
 
