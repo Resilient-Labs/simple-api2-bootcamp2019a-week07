@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image: url(../ye1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1{
+  font-size: 2.75rem;
+  text-align: center;
+  color:white;
+  font-family: 'Limelight', cursive;
+  margin-top:70px;
+
+}
+
+section{
+  text-align: center;
+  margin:20px;
+  color:darkgrey;
+  font-size:3rem;
+  font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+
+button{
+  width:40%;
+  height:65px;
+  margin-left:30%;
+  border-radius: 5%;
+  font-size:1rem;
+  color:#b65e48;
+  font-family: 'Carrois Gothic SC', sans-serif;
+}
