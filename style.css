@@ -1,0 +1,25 @@
+*{
+  text-align: center;
+}
+body{
+  background: url(img/background.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+div{
+  margin: auto;
+}
+h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+h3{
+  font-size: 100px;
+  margin: 70px auto;
+}
+button,select{
+  font-size: 20px;
+}

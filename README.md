@@ -1,22 +1,12 @@
-# 📊 Project: Simple API 2
+# 🏃🏻 API Project: Try A New Activity API
 
-### Goal: Display data returned from an api
+![Preview](/img/preview.png)
 
-### How to submit your code for review:
+### Goal:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- Create a front-end web app that uses the Bored API to suggest an activity by user-selected activity-type choice.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### References:
+- https://www.boredapi.com/
+- https://developer.mozilla.org/en-US/docs/Web/API/Body/json
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
