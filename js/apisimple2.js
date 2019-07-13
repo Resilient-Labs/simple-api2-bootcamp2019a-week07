@@ -14,6 +14,4 @@ document.querySelector("button").addEventListener("click", function() {
       console.log(`error ${err}`)
       alert("sorry, there are no results for your search")
     })
-
-
 });

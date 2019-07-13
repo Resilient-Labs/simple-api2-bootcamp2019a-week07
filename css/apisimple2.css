@@ -4,7 +4,7 @@
 
 
 body{
-  background-image: url(../ye.jpg);
+  background-image: url(../ye1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -35,5 +35,5 @@ button{
   border-radius: 5%;
   font-size:1rem;
   color:#b65e48;
-    font-family: 'Carrois Gothic SC', sans-serif;
+  font-family: 'Carrois Gothic SC', sans-serif;
 }
