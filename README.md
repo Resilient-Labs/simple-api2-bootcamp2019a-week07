@@ -1,8 +1,8 @@
-# 📊 Project: Simple API 2
+# 📊 Project: Simple API - Quote of the Day
 
 ### Goal: Display quote of the day from Quotes on Design's API
 
-**View project in browser:** https://endev-quotesondesign-simple-api
+**View project in browser:** https://endev-quotesondesign-simple-api.netlify.com
 
 **!!important: must have CORS changer installed in browser to fetch data from API**
 
