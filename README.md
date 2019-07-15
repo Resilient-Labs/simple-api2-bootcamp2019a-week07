@@ -1,22 +1,11 @@
-# 📊 Project: Simple API 2
+# Brewery API
+This project focuses on an open brewery API. When the user inputs a city they are visiting or where they are from it locates all breweries within their city.
 
-### Goal: Display data returned from an api
+**Tech used:**
+HTML, CSS, & JavaScript
 
-### How to submit your code for review:
+## Lessons Learned:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+This project was a bit complex. I applied a new array method to learn the functionality and where to apply it. Though I got a bit lost I really learned the importance of using variable names that go precisely with what needs to be targeted because it is easy to confuse yourself. .
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![alt tag](brewery.png)
