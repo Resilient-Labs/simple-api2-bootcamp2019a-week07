@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Oswald', sans-serif;
+  background-image: url(img/beer1.png);
+  background-repeat: no-repeat;
+  background-color: grey;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+input {
+  font-size: 20px;
+  margin-left: 42%;
+}
+.breweryContainer {
+  width: 35%;
+  margin-left: 65%;
+  font-size: 20px;
+}
