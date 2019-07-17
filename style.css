@@ -1,0 +1,20 @@
+body{
+  background-image: url(https://media.wired.com/photos/593371c12a38e4432c4b96cc/master/pass/socialite1.jpg);
+}
+input{
+  border-radius: 18px;
+  border-color: white;
+  border-width: 4px;
+  color: color;
+  width: 30%;
+  height: 50px;
+  font-size: 30px;
+  margin-left: 36%;
+}
+div {
+    margin-left: 25%;
+    height: 30px;
+    border-radius: 20px;
+    width: 50%;
+    margin-top: 29px;
+}
