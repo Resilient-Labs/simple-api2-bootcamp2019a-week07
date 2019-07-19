@@ -1,0 +1,45 @@
+button {
+  background-color: lightblue;
+}
+
+h1 {
+  color: rgb(238,110,23);
+  text-align: center;
+}
+
+span {
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 36%;
+  margin-bottom: 10px;
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  display: none;
+  font-size: 1.2em;
+  color: white;
+}
+
+ol{
+  display: none;
+}
+
+body {
+  background-image: url(pisit-heng-FQvadXmA524-unsplash.jpg);
+  margin: 0;
+  background-size: 100% 800px;
+  background-position: 0px -100px;
+}
+
+.definitionBox {
+  margin-left: 20%;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 60%;
+  padding: 3px 10px 10px 10px;
+  margin-top: 80px;
+}
