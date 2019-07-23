@@ -1,22 +1,19 @@
-# 📊 Project: Simple API 2
+# 📊 Project: Simple API 2 - Quick Dictionary
 
-### Goal: Display data returned from an api
+The project is webpage that uses an Merriam-Webster dictionary API to find the definition of a word inputed by the user.
 
-### How to submit your code for review:
+<img src=".png?raw=true" alt="screenshot of Fun with Fido webpage" height="200px">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript
+
+
+## Optimizations (Optional):
+
+N/A
+
+
+## Lessons Learned:
+
+APIs may often provide more information than is needed to address your particuar quesitons or objectve for your project. It is important to only utilize relevant data, in this case only a select range of definitions. Opportunities to refactor this code including implementing pagination in order to log the numerous definition other data  results provided. 
