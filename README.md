@@ -2,7 +2,7 @@
 
 The project is webpage that uses an Merriam-Webster dictionary API to find the definition of a word inputed by the user.
 
-<img src=".png?raw=true" alt="screenshot of Fun with Fido webpage" height="200px">
+<img src="/quickdictionaryscreenshot.png?raw=true" alt="screenshot of quick dictionary app" height="200px">
 
 ## How It's Made:
 
