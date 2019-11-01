@@ -1,22 +1,12 @@
 # 📊 Project: Simple API 2
-
+link: https://hardcore-fermat-7eba44.netlify.com/
 ### Goal: Display data returned from an api
+![alt text](Capture.PNG)
+### How I did it:
 
-### How to submit your code for review:
+- Set up fields that can be appended to and a button in the html
+- Added event listener to button, when clicked triggers a function call
+- Random nuumber is generated that can be used to search the API's database 
+- Database is searched based on ID for that random character, an object is returned with information on the character
+- The returned info is appended to their corresponding locations in the DOM
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
