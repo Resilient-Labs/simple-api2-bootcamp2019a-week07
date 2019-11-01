@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <h1>Pokémon EV App!</h1>
+
+        <section class="container">
+            <h2 id="pokemonName"></h2>
+            <section class="inputSection">
+                <label for="pokemonInput">Pokémon Input: </label>
+                <input id="pokemonInput" type="text" placeholder="Enter Pokémon Name Here">
+                <button id="submitPokemon">Search Pokémon</button>
+            </section>
+
+            <section class = "imageSection">
+                <img id="normalImage" src="" alt="">
+                <img id="shinyImage" src="" alt="">
+            </section>
+
+            <section id = "effortSection">
+                <table>
+                    <tr>
+                        <th class="hpHeader">HP EV</th>
+                        <th class="atkHeader">Attack EV</th>
+                        <th class="defHeader">Defense EV</th>
+                        <th class="spAtkHeader">Sp. Attack EV</th>
+                        <th class="spDefHeader">Sp. Defense EV</th>
+                        <th class="speedHeader">Speed EV</th>
+                    </tr>
+                    <tr>
+                        <td id="hpEv"></td>
+                        <td id="atkEv"></td>
+                        <td id="defEv"></td>
+                        <td id="spAtkEv"></td>
+                        <td id="spDefEv"></td>
+                        <td id="speedEv"></td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+
+        <script src = "js/script.js"></script>
+    </body>
+</html>

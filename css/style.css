@@ -1,0 +1,59 @@
+h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#hpEv, #atkEv, #defEv, #spAtkEv, #spDefEv, #speedEv {
+    text-align: center;
+}
+
+.imageSection, #effortSection, .inputSection {
+    display: flex;
+    justify-content: center;
+}
+
+#effortSection {
+    display: none;
+}
+
+.imageSection img {
+    width: 96px;
+    height: 96px;
+}
+
+.hpHeader, .atkHeader, .defHeader, .spAtkHeader, .spDefHeader, .speedHeader {
+    color: #000000;
+    font-weight: bold;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+.hpHeader {
+    background-color: #ff5959;
+}
+
+.atkHeader {
+    background-color: #f5ac78
+}
+
+.defHeader {
+    background-color: #fae078;
+}
+
+.spAtkHeader {
+    background-color: #9db7f5
+}
+
+.spDefHeader {
+    background-color: #a7db8d;
+}
+
+.speedHeader {
+    background-color: #fa92b2;
+}
