@@ -1,0 +1,29 @@
+body{
+    margin-top: 20px;
+    background-image: url(background.jpg);
+    background-repeat:none;
+    background-position: center;
+    background-size: cover;
+}
+section {
+display: flex;
+justify-content: center;
+}
+h1,h3{
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+}
+#nameInput{
+  width: 33em;
+  height: 4em;
+  width: 33em;
+  font-size: 17px;
+border-block-end-color: red;
+border-block-start-color: grey;
+}
+button{
+  border-radius: 20%;
+  font-size: 26px;
+  font-family: monospace;
+}
