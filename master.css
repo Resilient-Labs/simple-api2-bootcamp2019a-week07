@@ -1,0 +1,25 @@
+body {
+  color:green;
+  text-align: center;
+  box-sizing: border-box;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.theleadershipnotebook.com%2Fwp-content%2Fuploads%2F2013%2F11%2Fdesk1.jpg&f=1&nofb=1);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+button {
+  font-size: 30px;
+}
+section {
+  margin-top: 1%;
+  width: 50%;
+  margin-left: 25%;
+  background-color: orange;
+  font-size: 25px;
+}
+p {
+  margin: 0;
+  padding: 2% 0;
+  border: 1px solid black;
+}
