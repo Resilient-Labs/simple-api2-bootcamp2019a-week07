@@ -1,0 +1,22 @@
+body{
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Oxygen', sans-serif;
+  background-color: lightgrey;
+}
+h1{
+  font-size: 3rem;
+  float: left;
+  margin: 0 0 0 2%;
+}
+img{
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+ol{
+  clear: both;
+}
+li{
+  margin-top: 1%;
+}
