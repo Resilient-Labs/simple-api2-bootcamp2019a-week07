@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://images7.alphacoders.com/662/662102.png);
+  background-size: 100%;
+}
+h1{
+  text-align: center;
+}
+li{
+  list-style: none;
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 2%;
+  font-weight: bold;
+  color: red;
+}
+form{
+  text-align: center;
+}
