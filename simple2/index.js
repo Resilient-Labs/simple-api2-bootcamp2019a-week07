@@ -11,25 +11,23 @@ button.addEventListener('click', ()=>{
   fetch(`https://www.food2fork.com/api/search?key=${api}&q=${input}&page=1&sort=r`)
     .then(res => res.json())
     .then(json => {
-      console.log(json)
-      // let arrayTitle = json.recipes.map( x => x.title)
-      // let arrayUrl = json.recipes.map( x => x.source_url)
-      // console.log(arrayTitle, arrayUrl)
+      console.log(json.recipes[1].title)
 
+      // let recipeList = json.recipes[i]
+      // console.log(recipeList.title , recipeList.source_url)
+      let recipeList = json.recipes
+      for(let i=0; i<5; i++){
+        if(recipeList[i]<=recipeList[5]){
+          var textNode = document.createElement("div");
+           textNode.innerHTML = `<a href="${recipeList[i].source_url}" target=_blank"">${recipeList[i].title}</a>`;
+          result.appendChild(textNode);
+          console.log(recipeList)
+    }
 
-
-      let images = json.recipes[0].image_url
+}
+      let images = json.recipes[1].image_url
        document.querySelector('img').src = images;
 
-
-      let recipeTitle = json.recipes[0].title
-      let updatingTheDomWithTheRecipeName = document.createTextNode(recipeTitle)
-      result.appendChild(updatingTheDomWithTheRecipeName)
-
-      let mealUrl = json.recipes[0].source_url
-      let updatingTheDomWithRecipeLink = document.createTextNode(mealUrl)
-      result.appendChild(updatingTheDomWithRecipeLink)
-      console.log(recipeTitle)
 
 
     }).catch(err =>{
@@ -38,14 +36,3 @@ button.addEventListener('click', ()=>{
 
     });
 })
-
-// client oath : '9e09725240214c3f8d157d4b51063ec6'
-// client id : 'e06666b5867442bdb961eb5d13575681'
-//
-//
-// unsplash key: '89472b2fe22325434c51eab6b827dea49151cae8f2dc5a12d5ebf07dd261d4b0'
-// unsplash secret: 'b6d9e78bfe0ecae2a66799cdc546e9645e5c217250128ffc9f1d694b7581b1a9'
-
-
-// const api2 = 'd8c0001e608be4ff98345201dcf0d3f5'
-// const apiID = '660d0900'
