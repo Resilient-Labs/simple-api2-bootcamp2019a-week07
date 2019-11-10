@@ -5,7 +5,7 @@
 ### In this API I created an application where users can get there daily dose of Chuck Norris Jokes:
 
 ### Click here for jokes: https://goofy-euler-3eb850.netlify.com/
-![alt txt](Screen Shot 2019-11-10 at 1.44.14 AM.png)
+![alt text](chuckNorris-API-screenShot.png)
 
 
 Tech Used:
