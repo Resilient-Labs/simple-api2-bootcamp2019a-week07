@@ -1,4 +1,4 @@
-# My To do list
+# Simple Pokemon move-list API
 This project is a simple Pokemon API. I was able to utilize the names of any Pokemon, so when you input a name it will give you the move list of the Pokemon that you've searched for. 
 
 
