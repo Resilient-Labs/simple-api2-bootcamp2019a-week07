@@ -2,7 +2,7 @@
 
 ### Goal: Display data returned from an api
 
-![alt tag](simpleAPISS.png)
+![alt tag](comedy.jpg)
 
 
 This is a simple API app that enables the user to put in a keyword for whatever news they are interested in and the application pulls up a list of headlines that the user can select from to read the news article.
