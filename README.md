@@ -2,8 +2,6 @@
 
 ### Goal: Display data returned from an api
 
-## DAILY FOOD LOG FULL STACK APPLICATION 
-
 ![alt tag](simpleAPISS.png)
 
 
