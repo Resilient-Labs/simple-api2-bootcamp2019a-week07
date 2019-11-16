@@ -5,3 +5,10 @@
 ## See the lastest Hacker News here: https://distracted-kirch-2daba9.netlify.com/
 
 ![alt-text](hacker-news.png)
+
+
+## Technologies Used: 
+- HTML 
+- CSS 
+- Javascript 
+- Hacker News API 
