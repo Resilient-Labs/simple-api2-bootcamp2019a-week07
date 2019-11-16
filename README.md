@@ -5,16 +5,7 @@
 ![alt tag](comedy.jpg)
 
 
-TOOLS used: HTML, CSS, NODE JS, JAVASCRIPT, MONGODB
+TOOLS used: HTML, CSS, JAVASCRIPT
 
 
-## Installation
-
-1. Clone repo
-2. run `npm install`
-
-## Usage
-
-1. run `node server.js`
-2. Navigate to `localhost:8080`
 
