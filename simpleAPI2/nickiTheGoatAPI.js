@@ -16,8 +16,8 @@ button.addEventListener('click', ()=>{
 
       let iframe = document.createElement('iframe')
       iframe.src = 'https://audiomack.com/embed/song/nicki-minaj/barbie-goin-bad?background=1&color=ff66c5'
-      iframe.setAttribute('width', '50%')
-      iframe.setAttribute('height', '252')
+      iframe.setAttribute('width', '35%')
+      iframe.setAttribute('height', '100')
       iframe.setAttribute('allow',"autoplay")
       credit.appendChild(iframe)
       let goatArray = response.results
