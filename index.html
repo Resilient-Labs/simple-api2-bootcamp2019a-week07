@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Beer API</title>
+</head>
+<body>
+    <section>
+    <H1>Random Beer Generator</H1>
+    <p>Want to try a new beer? Press the button to generate a random beer choice to try</p>
+    <label for="abv"></label>
+    <select name="abv" id="abv-choice">
+        <option value="0,5"> &lt;5% </option>
+        <option value="5,10">5%-10%</option>
+        <option value="10,15">10%-15%</option>
+        <option value="15-25">15%-25%</option>
+        <option value="+25">+25%</option>
+    </select>
+    <button type="button" id="btn">Drink Up</button>
+    </section>
+    <section id="result">
+        <span id="drink-name"></span>
+        <span id="abv-rating"></span>
+        <p id ="description"></p>
+        <span id ="brewery-name"></span>
+
+
+    </section>
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
