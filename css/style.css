@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/cat.jpg);
+  background-size: cover;
+}
+
+select {
+  margin-left: 40%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #EDE4AD;
+}
+
+button {
+  background-color: #EDE4AD;
+}
+
+img {
+  width: 45%;
+  margin-left: 5%;
+  margin-top: 5%;
+  border-radius: 13%;
+}
+
+
+/* *****************
+      MEDIA Q
+*******************/
+@media screen and (max-width: 520px) {
+
+
+  img {
+    width: 96%;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 2%;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 1400px) {
+
+
+  img {
+    width: 92%;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 2%;
+  }
+}
