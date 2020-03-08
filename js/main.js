@@ -1,10 +1,28 @@
 let key = '5915e6f889470d4ad78221238c762ab4'
-let abv = '+10'
-let isOrg = 'Y'
+let abv = document.querySelector(`#abv-choice`).value
 
 
 
-document.querySelector(`#btn`).addEventListener(`click`, (e) => { getDrink() })
+document.querySelector(`#btn`).addEventListener(`click`, onClick)
+
+
+
+function onClick(){
+
+  // let sec = document.querySelector(`#result`)
+
+  
+  // if(sec.hasChildNodes() === true){ //removes all children from sec
+    
+  //   while (sec.firstChild) {
+  //     sec.removeChild(sec.lastChild);
+  //   }
+
+  // }
+
+
+  getDrink()
+}
 
 
 
