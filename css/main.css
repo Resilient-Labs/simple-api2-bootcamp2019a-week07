@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+h1{
+  text-align: center;
+  color:green;
+}
+p{
+  text-align:center;
+  color:white;
+  
+}
+img{
+  width:100%;
+  height:500px;
+}
