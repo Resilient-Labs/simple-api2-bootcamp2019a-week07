@@ -1,0 +1,47 @@
+body{
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Concert One', cursive;
+  font-size: 60px;
+}
+
+p{
+  color: white;
+  text-align: center;
+  font-family: 'Concert One', cursive;
+  font-size: 30px;
+}
+
+.startButton{
+  margin: 0 auto;
+  display: block;
+  height: 50px;
+  width: 8%;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+img{
+  margin-top: 100px;
+  height: 300px;
+}
+
+span{
+  color: white;
+  font-size: 40px;
+}
+
+main{
+  margin: 0 auto;
+  text-align: center;
+}
+
+#imgOne:hover , #imgTwo:hover{
+  opacity: 0.5;
+}
