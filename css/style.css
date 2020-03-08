@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(walter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button{
+  border: 10px #518ba1 solid;
+    font-size: 31px;
+}
+p{
+  color:#518ba1;
+  font-size: 41px;
+}
