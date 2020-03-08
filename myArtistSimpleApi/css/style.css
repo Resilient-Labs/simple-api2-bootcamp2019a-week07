@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1{
+  color: blue;
+}
+
+body{
+  /* background-color: beige; */
+  background-image: url(../musicNotes.gif);
+  background-size: auto;
+  background-color: lightgreen;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#favoriteArtist{
+  width: 30%;
+  font-size: 20px;
+  color: blue;
+}
+
+#title{
+  background-color: yellow;
+  font-size: 30px;
+}
+#description{
+  background-color: orange;
+  font-size: 15px;
+}
+#generator{
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+#buttonDecor{
+  font-weight: bold;
+  font-family: arial;
+  font-size: 20px;
+}
