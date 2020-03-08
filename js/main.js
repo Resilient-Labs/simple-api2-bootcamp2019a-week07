@@ -8,6 +8,7 @@ document.querySelector(`#btn`).addEventListener(`click`, onClick)
 
 
 function onClick(){
+  let abv = document.querySelector(`#abv-choice`).value
 
   // let sec = document.querySelector(`#result`)
 
