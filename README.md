@@ -1,22 +1,13 @@
-# 📊 Project: Simple API 2
+# Simple API 2: "CLINK"
+#### Project Scope: Enter your city or a city of interest to receive an unordered list of all breweries in the area. 
+#### View here: https://svdev-brewery.netlify.com
+![](simpleApi2/simpleApi2.png)
 
-### Goal: Display data returned from an api
+# How it was made:
+#### HTML5, CSS3, Javascript E6, API, JSON
 
-### How to submit your code for review:
+# Optimizations:
+#### When the names of breweries in your city are displayed on the DOM, the number of breweries is listed as well for accuracy. 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Lesson Learned: 
+#### API's provide a significant amount of data that can be incorporated into web applications utilizing the fetch method. 
