@@ -1,9 +1,15 @@
 *{
     box-sizing: border-box;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 html{
     font-size: 10px;
+}
+body{
+    background-color: rgb(0, 75, 173);
+}
+h1,p,span{
+    color: gold;
 }
 
  button{
@@ -19,7 +25,6 @@ html{
      box-shadow: 5px 5px rgba(0, 0, 255, 0.377);
      margin-bottom: 20px;
 
-     /* outline: none; */
  }
 section{
     height:300px;
@@ -33,3 +38,5 @@ section{
 span{
     height: 20px;
 }
+
+/* add media queries */
