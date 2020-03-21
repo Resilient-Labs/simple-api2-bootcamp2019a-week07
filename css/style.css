@@ -1,0 +1,15 @@
+ iframe{
+  background-image: url("images/video.jpeg");
+  background-size: cover;
+}
+
+/* img{
+  height: 100px;
+  width: 100%;
+} */
+
+.topSec{
+  background-color: lightgreen;
+  text-align: center;
+
+}
