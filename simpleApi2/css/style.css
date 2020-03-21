@@ -1,0 +1,66 @@
+body{
+  background-color: rgb(32, 60, 87);
+}
+
+h1{
+  text-align: center;
+  color: yellow;
+  font-family: 'Oxanium', cursive;
+  font-size: 4.5rem;
+  margin-bottom: 0px;
+}
+
+img{
+  width: 5rem;
+}
+
+p{
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1.5rem;
+  margin-left:1rem;
+  margin-right:1rem;
+}
+
+form{
+  text-align:center;
+}
+
+input{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+}
+
+button{
+  font-family: 'Oxanium', cursive;
+  font-size: 1.3rem;
+  border-radius: 1px;
+  outline: none;
+  cursor: pointer;
+  border:none;
+  background-color: black;
+  color: white;
+  padding-top: 2px;
+}
+
+ul{
+  background-color: white;
+  width: 20rem;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li{
+  list-style: none;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 2.2rem;
+  font-weight: bold;
+}
