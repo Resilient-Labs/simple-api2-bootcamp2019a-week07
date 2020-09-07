@@ -1,0 +1,13 @@
+body{
+  background-image: url(../img/DA6JQP.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+h2{
+  padding-top: 160px;
+  margin: auto 200px auto 200px;
+  padding-bottom: 20px;
+}
