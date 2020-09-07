@@ -1,0 +1,52 @@
+*{
+  font-size: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+h1{
+  font-size: 3rem;
+}
+body::after{
+  content: "";
+  background-image: url("back.jpg");
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+
+}
+p {
+  width: 50%;
+  margin-left: 25%;
+  height: 60px;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+button{
+  padding: 2%;
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width:600px) {
+  h1{
+    font-size: 3rem;
+  }
+  body::after{
+    background-position: center;
+  }
+  p {
+    font-size: 1.5rem;
+    width: 70%;
+    margin-left: 15%;
+  }
+  button{
+    margin-bottom: 15px;
+  }
+
+}
