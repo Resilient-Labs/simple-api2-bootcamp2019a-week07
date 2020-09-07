@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  float: left;
+  width: 199px;
+  height: 199px;
+}
+li {
+  margin: 0 auto;
+  height: 201px;
+  border: 1px solid black;
+  width: 80%;
+  list-style: none;
+}
+h3 {
+  text-align: center;
+}
+ 
