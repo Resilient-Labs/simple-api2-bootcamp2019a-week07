@@ -5,12 +5,13 @@ body{
   color: white;
 }
 #holder{
-  background-color: rgba(255, 255, 255, 70%);
+  background-color: rgba(255, 255, 255, 40%);
   width: 60%;
   height: auto;
   margin-left: 20%;
   padding-top: 3%;
   padding-bottom: 3%;
+  margin-top: 10%;
 }
 h1, h2, p{
   color: black;
@@ -18,7 +19,14 @@ h1, h2, p{
   font-family: inherit;
 }
 button{
-  margin-left: 45%;
+  margin-left: 42%;
+  padding: 1% 2%;
+  border:none;
+  color:white;
+  font-size: 15px;
+  font-weight: normal;
+
+  background-color: black;
 }
 p{
   margin-left: 10%;
@@ -29,7 +37,7 @@ p{
 }
 h1{
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
 }
 h2{
   font-weight: lighter;
