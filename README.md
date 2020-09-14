@@ -8,4 +8,4 @@ Using a Joke API, I created and linked a Visual Interface to grab a random joke 
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Joke API
+**Tech used:** HTML, CSS, JavaScript, and a Joke API
