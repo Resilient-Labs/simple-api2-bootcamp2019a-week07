@@ -1,6 +1,6 @@
 # 🤖 Project: Simple API 2 🃏
 
-Live Code: 
+Live Code: https://kimflores-code-jokes.netlify.app
 
 # How It's Made:
 ### Tech used: 
