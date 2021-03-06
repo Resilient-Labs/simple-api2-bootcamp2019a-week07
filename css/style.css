@@ -1,0 +1,49 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  height: 20rem;
+}
+body{
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+}
+.DisplayFood > div{
+  display: inline-block;
+  margin: 1rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1{
+  font-size: 3rem;
+}
+h4{
+  font-size: 2rem;
+}
+input{
+  height: 3.5rem;
+width: 30%;
+font-size: 2rem;
+padding-left: 1rem;
+}
+button{
+  height: 3.5rem;
+  font-size: 2rem;
+}
+h3{
+  font-size: 2rem;
+  color: #ff3737;
+}
