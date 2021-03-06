@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+}
+
+@font-face {
+  src: url(../font/PABLO.ttf) format('truetype');
+  font-family: kanye;
+}
+
+.container {
+  height: 722px;
+  display: flex;
+  justify-content: center;
+  background:url(../images/kanyemainbackground1.png) repeat left;
+  /* background-size: cover; */
+}
+
+h1 {
+  font-size: 3rem;
+  color: goldenrod;
+  font-family: kanye;
+  margin-top: 10px;
+}
+h2 {
+  color: goldenrod;
+  font-family: kanye;
+  margin-top: 10px;
+}
+.mainSection {
+  /* border: 1px solid black; */
+  width: 700px;
+  height: 99%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.kanyePic {
+  border: 5px solid black;
+  width: 450px;
+  height: 350px;
+  display: flex;
+  position: relative;
+  background: url(../images/stage4.jpg) no-repeat left ;
+  background-size:cover;
+  border-radius: 20px;
+}
+
+/* .kanye {
+  
+} */
+.kanyeLip {
+  position: absolute;
+  width:14%;
+  bottom: 50px;
+  left: 205px;
+  border-radius: 10px;
+}
+
+.animation {
+  animation: UpDown .62s linear 7;
+  animation-timing-function: ease-out;
+}
+
+@keyframes UpDown{
+  0%, 100%{
+    bottom: 50px;
+  }
+  50% {
+    bottom: 35px;
+  }
+}
+
+.quote {
+  border: 5px solid black;
+  border-radius: 25px;
+  width: 500px;
+  height: 200px;
+  background-color: rgba(7, 4, 4, 0.665);
+  color: white;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+button {
+  width: 140px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: goldenrod;
+  border: none;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
