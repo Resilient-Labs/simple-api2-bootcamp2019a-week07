@@ -1,0 +1,56 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-image: url(https://media.giphy.com/media/3o7TKuSjgdu1PX3mSs/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  font-family: 'DotGothic16', sans-serif;
+}
+.kanye{
+  /* background-color: rgba(255,255,255,.60); */
+  width: 30%;
+  position: absolute;
+  top: 83px;
+  left: 150px;
+}
+.man{
+  /* background-color: rgba(255,255,255,.60); */
+  width: 57%;
+  position: absolute;
+  bottom: 115px;
+  left: 45px;
+}
+button{
+  background-color: rgba(255,255,255,.60);
+  font-size: 20px;
+  display: inline-block;
+}
+h1{
+  width: 37%;
+  display: inline-block;
+}
+p{
+  font-size: 20px;
+  font-weight: 800;
+}
+span{
+  font-weight: 800;
+}
+.cool{
+  display: none;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
