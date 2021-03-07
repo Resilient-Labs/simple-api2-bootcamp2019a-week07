@@ -1,0 +1,25 @@
+
+ body{
+    background-image: url('tod.png'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center; 
+} 
+
+.top{
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    /* the transform can help with positioning */
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 8px rgb(39, 39, 39);
+    width: 465px;
+    height: auto;
+    text-align: center;
+    background-color: rgba(24, 56, 238, 0.733);
+}
+
+
+
+
