@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+	font-size: 62.5%;
+	font-family: 'Yusei Magic', sans-serif;
+  }
+  
+  body{
+	background-image: url(../pic/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(113, 27, 130, 0.2);
+	height: 100vh;
+	padding: 0;
+	margin: 0; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	 
+  }
+
+  .secIntroduction{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 4rem;
+      width: 100%;
+  }
+
+  input, button{
+      text-align: center;
+      width: 50%;
+  }
+
+  .secImages{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 30rem;
+    font-size: 9rem;
+  }
+
+  .secImages h2{
+      margin-bottom: 0%;
+  }
+
+  .secPokemonPics{
+      display: flex;
+      height: 20rem;
+  }
+
+  .secPokemonPics h2{
+
+    height: 20rem;
+    margin-top: 0%;
+  }
+
+  .secPokemonPics h2 img{
+      height: 20rem;
+  }
+
+  .secAbilities{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 7rem;
+  }
+
+  .secAbilities h3{
+      margin-top: 2%;
+      margin-bottom: 1%;
+  }
+
+
+
+
+
+
