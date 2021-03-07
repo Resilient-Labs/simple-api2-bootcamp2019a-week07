@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5;
+}
+
+body {
+  background-image: url(jokes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: indie flower;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: indie flower;
+}
+
+span {
+  color: white;
+  font-weight: bold;
+}
