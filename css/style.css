@@ -13,7 +13,7 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  background:url(../images/kanyemainbackground1.png) repeat left;
+  background:url(../images/kanyemainbackground1.png) no-repeat left;
   /* background-size: cover; */
 }
 
