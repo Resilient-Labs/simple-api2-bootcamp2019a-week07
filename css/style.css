@@ -10,7 +10,7 @@
 }
 
 .container {
-  height: 722px;
+  height: 100vh;
   display: flex;
   justify-content: center;
   background:url(../images/kanyemainbackground1.png) repeat left;
