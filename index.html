@@ -8,26 +8,25 @@
 		<title>Rick And Morty</title>
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 
-		<h1>Rick and Morty</h1>
+		<h1>Rick and Morty Character Locater</h1>
 		<form class="" action="index.html" method="post">
 			<input type="text" placeholder="Search Character" name="character" value="">
 			<button type="button" name="button">Search</button>
 		</form>
-		<section class="searchResults">
+		<section class="results">
+			<ul class="unorderedLists names">Character Name</ul>
+			<ul class="unorderedLists status">Living Status</ul>
+			<section class="unorderedLists images">Image</section>
+		</section>
 
-		</section>
-		<section>
-			<h2>Character Name</h2>
-			<h3>Status</h3>
-			<h3>Last Known Location</h3>
-			<h3>Species</h3>
-			<img src="" alt="">
-		</section>
 
 
 		<script type="text/javascript" src="js/main.js"></script>
