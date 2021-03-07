@@ -1,0 +1,41 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-color: purple;
+}
+
+h1 {
+  color: red;
+  margin-left: 15%;
+
+}
+span {
+  display: block;
+  color: white;
+  font-weight: bold;
+  margin-top: 3%;
+  margin-left: 15%;
+}
+
+button {
+  margin-left: 15%;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
