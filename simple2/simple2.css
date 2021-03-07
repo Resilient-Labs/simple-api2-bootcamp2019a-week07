@@ -1,0 +1,15 @@
+body {
+  /* border: 1px solid red; */
+  height: 75%;
+  width: 80%;
+  background-color: red;
+}
+img {
+  height: 10%;
+  width: 45%;
+  align-content: center;
+  float: right;
+}
+button {
+  size: 45px;
+}
