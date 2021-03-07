@@ -1,0 +1,24 @@
+body{
+    background: url(/roadhouse.gif);
+    
+}
+.clicky{
+    width: 150px;
+    height: 20px;
+    margin-left: 43px;
+}
+h1{
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    color: red;
+}
+h2{
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    color: red;
+}
+img{
+    width: 20%;
+    height: auto;
+    margin-left: 526px;
+}
