@@ -1,0 +1,54 @@
+*{
+  margin: 0
+  padding:0;
+
+}
+
+body{
+  box-sizing: border-box;
+  background: url('images/prints.jpg');
+  background-size: repeat;
+}
+
+h2{
+  font-family: 'Oi', cursive;
+
+  color: blue;
+  opacity: none;
+  font-size: 50px;
+  margin-left: 8%;
+}
+
+.move{
+margin-left:35%;
+background-color: transparent;
+height: 30px;
+width:30%;
+margin-bottom: 5%;
+
+
+}
+
+button{
+  font-family: 'Oi', cursive;
+  background-color: transparent;
+
+}
+p{
+  font-family: 'Oi', cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  color: blue;
+
+}
+
+
+.red{
+  height:600px;
+  width: 50%;
+  background-color:rgba(255, 0, 0, 0.8);
+  margin-left:5%;
+  padding: 5%;
+
+}
