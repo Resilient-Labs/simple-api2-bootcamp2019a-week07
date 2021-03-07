@@ -1,0 +1,116 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  height: 1000px;
+   background-image: url('../img/bitcoin.jpg');
+   background-repeat: no-repeat;
+     background-size: cover;
+     font-family: Helvetica, Arial, sans-serif;
+}
+html{
+  font-size: 10px;
+}
+h1{
+  text-align:center;
+  font-size: 6rem;
+  color: white;
+  font-weight: 800;
+}
+button{
+  height: 64px;
+  border-radius: 37px;
+  margin-left: 45%;
+  margin-top: 2%;
+  font-size: 4rem;
+  background-color: bisque;
+  cursor: pointer;
+  color: black;
+  font-weight: 800;
+  outline: none;
+}
+header{
+  float: left;
+  width: 100%;
+}
+button:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.money{
+  height: 200px;
+  margin-top: 20px;
+  width: 33%;
+  text-align: center;
+  float: left;
+  font-weight: 800;
+}
+.nameOfCurrency{
+  font-size: 5rem;
+  background-color: rgb(225,225,225,.6);
+  color: green;
+  margin: 0 179px;
+}
+.USDrate,.GBPrate,.EURrate{
+  font-size: 3rem;
+  color: white;
+  font-weight: 800;
+  margin-top: 16px;
+}
+.USDdescription,.GBPdescription,.EURdescription{
+  font-size: 2.5rem;
+  color: black;
+  background-color: white;
+  margin: 19px 76px 0 76px;
+  background-color: rgb(225,225,225,.6);
+}
+.time{
+  margin-top: 69px;
+  font-size: 3rem;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
