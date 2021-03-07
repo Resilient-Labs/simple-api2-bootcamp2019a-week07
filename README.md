@@ -9,7 +9,7 @@ Type a word here to see if there is synonym for it
 Tools used: HTML, CSS JS
 
 
-<img src="C:\Users\hilla\Desktop\Projects\simple-api2-bootcamp\css\books.jpg" alt="books" style="height: 100px; width:100px;"/>
+<img src="css/img/books.jpg" alt="books" style="height: 100px; width:100px;"/>
 
 I completed the challenge: 5
 I feel good about my code: 4
