@@ -1,0 +1,45 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+}
+
+body{
+  background-image: url('http://trumpwallpapers.com/wp-content/uploads/Book-Wallpaper-01-2716-x-1810.jpg');
+  background-repeat: none;
+  background-size: cover;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+h1{
+  font-size: 40px;
+  padding-top: 2%;
+}
+
+button{
+  background-color: red;
+  border-radius: 60px;
+}
+
+input{
+  color: black;
+}
+
+.meaning{
+  margin: 0 20%;
+  padding-top: 5px ;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
