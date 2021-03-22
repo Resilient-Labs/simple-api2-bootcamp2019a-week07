@@ -1,7 +1,7 @@
 document.querySelector('button').addEventListener('click', askKanye)
 // document.querySelector('button').addEventListener('click', frame)
 document.querySelector('button').addEventListener("click", function(e) {
-  e.preventDefault;
+  // e.preventDefault;
   document.querySelector('.kanyeLip').classList.remove("animation");
   void document.querySelector('.kanyeLip').offsetWidth;
   document.querySelector('.kanyeLip').classList.add("animation");
@@ -21,10 +21,5 @@ function askKanye(){
   
 }
 
-
-// let id = setInterval(frame, 5)
-// function frame(){
-//   document.querySelector('.kanyeLip').classList.remove('animation')
-// }
 
 
