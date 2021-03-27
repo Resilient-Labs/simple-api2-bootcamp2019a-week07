@@ -1,22 +1,9 @@
-# 📊 Project: Simple API 2
+# 📊 Dog Photos API 
 
-### Goal: Display data returned from an api
+### Enter a dog breed and get back a dog photo!
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
 I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+I feel good about my code: 5
+
+I learned how to make sure differing image sizes display the same and ensure the api's parameters work for future projects. 
