@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-image: url(car.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body{
+  border: 5px solid black;
+  height: 80vh;
+  width: 75vw;
+  margin: 5% auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 75rem;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+  border-radius: 30px;
+}
