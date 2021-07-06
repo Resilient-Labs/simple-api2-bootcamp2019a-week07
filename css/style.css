@@ -1,0 +1,52 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    background: #fff7ea;
+}
+
+h1{
+    font-size: 35px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10% 0 10%;
+}
+
+#button{
+    height: 42px;
+    font-size: 15px;
+    margin: 40px 0;
+    background: #ebc17d;
+    border: 2px solid #FF9800;
+    border-radius: 6px;
+}
+
+#button:hover{
+    cursor: pointer;
+    background-color:#90c380;
+    border: none;
+}
+
+.speech-bubble{
+    background-color: #cacacaa1;
+    border: 3px solid #dcdcdc;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.bubble-arrow{
+    border-left: 21px solid transparent;
+    border-top: 20px solid #cacacaa1;
+    /* border: 1px solid black; */
+    bottom: -23px;
+    position: absolute;
+    left: 237px;
+
+}
+
+.hide{
+    display:none;
+}
