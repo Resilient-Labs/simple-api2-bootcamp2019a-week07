@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+
+h1, button{
+  font-family: sans-serif;
+}
+
+li{
+  color: green;
+  font-size: 70px;
+}
+
+h1{
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 3em;
+  color: rgb(145,180,181);
+  text-shadow: 1px 1px 3px black;
+}
+
+button{
+  height: 98px;
+  width: 20%;
+  margin-left: 40%;
+  color: white;
+  font-weight: bolder;
+  font-size: 41px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(250, 128, 114);
+  background: rgb(230, 230, 250);
+}
